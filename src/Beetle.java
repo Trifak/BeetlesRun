@@ -21,7 +21,7 @@ public class Beetle {
 
     public void printMoving() {
         for (int i = 0; i < getDistance(); i++) {
-            System.out.print("=");
+            System.out.print("#");
         }
         System.out.println(this.name);
     }
