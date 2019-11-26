@@ -55,10 +55,10 @@ public class Race {
 
     public Beetle getWinner() {
         Beetle winner = beetles.get(0);
-        int distance = beetles.get(0).distance;
+        int distance = (int) beetles.get(0).getDistance();
         for (Beetle beetle : beetles) {
-            if (beetle.distance > distance) {
-                distance = beetle.distance;
+            if (beetle.getDistance() > distance) {
+                distance = (int) beetle.getDistance();
                 winner = beetle;
             }
         }

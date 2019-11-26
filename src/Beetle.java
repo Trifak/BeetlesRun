@@ -1,7 +1,7 @@
 public class Beetle {
-    String name;
-    int distance;
-    int speed;
+    private String name;
+    private int distance;
+    private int speed;
 
     /*Constructor*/
 
@@ -23,7 +23,7 @@ public class Beetle {
         for (int i = 0; i < getDistance(); i++) {
             System.out.print("#");
         }
-        System.out.println(this.name);
+        System.out.println(" " + this.name);
     }
 
     /*Getters and setters*/
